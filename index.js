@@ -7,4 +7,8 @@ app.get("/", (req, res) => {
   res.send("Hello Worldsadasdasdasd");
 });
 
+app.get("/about", (req,res)=>{
+    
+})
+
 app.listen(`Server started on port ${port}`);
