@@ -15,7 +15,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/you", (req, res) => {
-  res.send("You are a good person");
+  res.send("You have a nice day.");
 });
 
 app.listen(port, () => {
